@@ -12,7 +12,7 @@ module.exports = function(grunt) {
 			// Bundle Javascript
 			js: {
 				src: 'scripts/*.js',
-				dest: 'dist/scripts.js'
+				dest: 'dist/king.js'
 			},
 			// Bundle CSS
 			css: {
@@ -23,8 +23,8 @@ module.exports = function(grunt) {
 		// Minify JavaScript
 		uglify: {
 			build: {
-				src: 'dist/scripts.js',
-				dest: 'dist/scripts.min.js'
+				src: 'dist/king.js',
+				dest: 'dist/king.min.js'
 			}
 		},
 		// Minify CSS
