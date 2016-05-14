@@ -1,0 +1,27 @@
+{
+  "name": "kingcss",
+  "version": "0.1.0",
+  "description": "CSS Styles that are fit for a King.",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-css": "^0.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobuid/KingCSS.git"
+  },
+  "author": "Jacob King",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacobuid/KingCSS/issues"
+  },
+  "homepage": "https://github.com/jacobuid/KingCSS#readme"
+}
