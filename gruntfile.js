@@ -1,6 +1,8 @@
 
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 	
+    'use strict';
+    
 	// Load Grunt Contribution Libraries
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
@@ -11,12 +13,12 @@ module.exports = function(grunt) {
 		concat: {
 			// Bundle Javascript
 			js: {
-				src: 'scripts/*.js',
+				src: 'src/scripts/*.js',
 				dest: 'dist/king.js'
 			},
 			// Bundle CSS
 			css: {
-				src: 'styles/*.css',
+				src: 'src/styles/*.css',
 				dest: 'dist/king.css'
 			}
 		},
@@ -29,13 +31,13 @@ module.exports = function(grunt) {
 		},
 		// Minify CSS
 		cssmin: {
-			css:{
+			css: {
 				src: 'dist/king.css',
 				dest: 'dist/king.min.css'
 			}
 		}
 	});
 
-	grunt.registerTask('build', ['concat','uglify','cssmin']);
+	grunt.registerTask('build', ['concat', 'uglify', 'cssmin']);
 
 };
