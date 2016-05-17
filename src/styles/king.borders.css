@@ -1,0 +1,12 @@
+
+.no-border { border: none !important }
+
+.border { border-style: solid; border-width: 1px }
+.border.dot,.border-2.dot,.border-3.dot,.border-4.dot,.border-5.dot { border-style: dotted }
+.border.dash,.border-2.dash,.border-3.dash,.border-4.dash,.border-5.dash { border-style: dashed }
+.border.double,.border-2.double,.border-3.double,.border-4.double,.border-5.double { border-style: double }
+
+.border-2 { border-width: 2px }
+.border-3 { border-width: 3px }
+.border-4 { border-width: 4px }
+.border-5 { border-width: 5px }
