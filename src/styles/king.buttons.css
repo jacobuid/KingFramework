@@ -1,2 +1,13 @@
 
-.btn { border:none; background:none; padding:6px 12px }
+/* Setup */
+.btn { border:none; background:none; box-sizing:border-box; }
+
+/* Sizes */
+.btn.btn-xl{ padding:10px 20px; }
+.btn.btn-lg{ padding:8px 18px; }
+.btn.btn-md{ padding:6px 12px; }
+.btn.btn-sm{ padding:4px 8px; }
+.btn.btn-xs{ padding:2px 4px; }
+
+/* This button uses Grid to determine width */
+.btn.btn-block{ width:100%; }
