@@ -1,11 +1,17 @@
 /* Setup */
-.btn { border:none; background:none; font-size:14px; padding:8px 16px; box-sizing:border-box; cursor:pointer; background-color:rgba(0,0,0,.1); }
+.btn { border: none; background: none; font-size: 14px; padding: 8px 16px; box-sizing: border-box; cursor: pointer; background-color: rgba(0,0,0,.1) }
 
 /* Sizes */
-.btn.btn-xl{ font-size:18px; padding:12px 24px; }
-.btn.btn-lg{ font-size:16px; padding:10px 20px; }
-.btn.btn-sm{ font-size:12px; padding:6px 12px; }
-.btn.btn-xs{ font-size:10px; padding:4px 8px; }
+.btn.btn-xl{ font-size: 18px; padding: 12px 24px }
+.btn.btn-lg{ font-size: 16px; padding: 10px 20px }
+.btn.btn-sm{ font-size: 12px; padding: 6px 12px }
+.btn.btn-xs{ font-size: 10px; padding: 4px 8px }
 
 /* This button uses Grid to determine width */
-.btn.btn-block{ width:100%; }
+.btn.btn-block{ width: 100% }
+
+/* Groups */
+.btn-group .btn{ float: left }
+
+.btn-group-vertical{ display: inline-block }
+.btn-group-vertical .btn{ display: block; width: 100% }
