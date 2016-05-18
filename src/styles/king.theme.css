@@ -1,4 +1,11 @@
-
+/* =========================================
+    KingTHEME
+    - The theme uses 3 styles to control 
+      the colors of a project:
+      - Background
+      - Color
+      - Border
+==========================================*/
 
 /* Primary Color */
 .background.primary:not([disabled]), .background.primary-hover:not([disabled]):hover { background-color:#0275d8 }
@@ -38,3 +45,35 @@
 /* Hover */
 .hover-light{ background-image: url('../images/light.png') }
 .hover-dark{ background-image: url('../images/dark.png') }
+
+/* Round Corners  */
+.round-xs { border-radius: 2px; }
+.round-sm { border-radius: 4px; }
+.round-md { border-radius: 6px; }
+.round-lg { border-radius: 8px; }
+.round-xl { border-radius: 10px; }
+
+.round-xs-top { border-top-left-radius: 2px; border-top-right-radius: 2px; }
+.round-xs-bottom { border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; }
+.round-xs-left { border-top-left-radius: 2px; border-bottom-left-radius: 2px; }
+.round-xs-right { border-top-right-radius: 2px; border-bottom-right-radius: 2px; }
+
+.round-sm-top { border-top-left-radius: 4px; border-top-right-radius: 4px; }
+.round-sm-bottom { border-bottom-left-radius: 4px; border-bottom-right-radius: 2px; }
+.round-sm-left { border-top-left-radius: 4px; border-bottom-left-radius: 4px; }
+.round-sm-right { border-top-right-radius: 4px; border-bottom-right-radius: 4px; }
+
+.round-md-top { border-top-left-radius: 6px; border-top-right-radius: 6px; }
+.round-md-bottom { border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; }
+.round-md-left { border-top-left-radius: 6px; border-bottom-left-radius: 6px; }
+.round-md-right { border-top-right-radius: 6px; border-bottom-right-radius: 6px; }
+
+.round-lg-top { border-top-left-radius: 8px; border-top-right-radius: 8px; }
+.round-lg-bottom { border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; }
+.round-lg-left { border-top-left-radius: 8px; border-bottom-left-radius: 8px; }
+.round-lg-right { border-top-right-radius: 8px; border-bottom-right-radius: 8px; }
+
+.round-xl-top { border-top-left-radius: 10px; border-top-right-radius: 10px; }
+.round-xl-bottom { border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; }
+.round-xl-left { border-top-left-radius: 10px; border-bottom-left-radius: 10px; }
+.round-xl-right { border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
