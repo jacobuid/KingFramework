@@ -1,23 +1,23 @@
 
-.primary.background { background-color:#0275d8 }
-.primary.color { color::#0275d8 }
-.primary.border { border-color: #0275d8 }
+.background.primary:not([disabled]), .background.primary-hover:not([disabled]):hover { background-color:#0275d8 }
+.color.primary:not([disabled]), .color.primary-hover:not([disabled]):hover { color::#0275d8 }
+.border.primary:not([disabled]), .border.primary-hover:not([disabled]):hover { border-color: #0275d8 }
 
-.secondary.background { background-color:#5cb85c }
-.secondary.color { color:#5cb85c }
-.secondary.border { border-color: #5cb85c }
+.background.secondary:not([disabled]), .background.secondary-hover:not([disabled]):hover { background-color:#5cb85c }
+.color.secondary:not([disabled]), .color.secondary-hover:not([disabled]):hover { color:#5cb85c }
+.border.secondary:not([disabled]), .border.secondary-hover:not([disabled]):hover { border-color: #5cb85c }
 
-.tertiary.background { background-color:#d9534f }
-.tertiary.color { color:#d9534f }
-.tertiary.border { border-color: #d9534f }
+.background.tertiary:not([disabled]), .background.tertiary-hover:not([disabled]):hover { background-color:#d9534f }
+.color.tertiary:not([disabled]), .color.tertiary-hover:not([disabled]):hover { color:#d9534f }
+.border.tertiary:not([disabled]), .border.tertiary-hover:not([disabled]):hover { border-color: #d9534f }
 
-.white.background { background-color: #fff }
-.white.color { color: #fff }
-.white.border { border-color: #fff }
+.background.white:not([disabled]), .background.white-hover:not([disabled]):hover { background-color: #fff }
+.color.white:not([disabled]), .color.white-hover:not([disabled]):hover { color: #fff }
+.border.white:not([disabled]), .border.white-hover:not([disabled]):hover { border-color: #fff }
 
-.light.background { background-color: #f5f5f5 }
-.light.color { color: #f5f5f5 }
-.light.border { border-color: #f5f5f5 }
+.background.light:not([disabled]), .background.light-hover:not([disabled]):hover { background-color: #f5f5f5 }
+.color.light:not([disabled]), .color.light-hover:not([disabled]):hover { color: #f5f5f5 }
+.border.light:not([disabled]), .border.light-hover:not([disabled]):hover { border-color: #f5f5f5 }
 
 .dark.background { background-color: #333 }
 .dark.color { color: #333 }
