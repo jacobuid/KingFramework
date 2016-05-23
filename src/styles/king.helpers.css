@@ -1,3 +1,14 @@
+
+/* Text */
+.text-lowercase { text-transform: lowercase !important; }
+.text-uppercase { text-transform: uppercase !important; }
+.text-capitalize { text-transform: capitalize !important; }
+.text-centered{ text-align: center }
+.text-right{ text-align: right }
+.text-left{ text-align: left }
+.text-justify{ text-align: justify }
+
+/* Images */
 .img-fluid { width:100%; height:auto }
 .img-circle { border-radius: 50%; }
 
