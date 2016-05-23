@@ -1,12 +1,13 @@
 
-.no-border { border: none !important }
+.no-border, .border-0, .b-0 { border: none !important }
 
-.border { border-style: solid; border-width: 1px }
-.border.dot,.border-2.dot,.border-3.dot,.border-4.dot,.border-5.dot { border-style: dotted }
-.border.dash,.border-2.dash,.border-3.dash,.border-4.dash,.border-5.dash { border-style: dashed }
-.border.double,.border-2.double,.border-3.double,.border-4.double,.border-5.double { border-style: double }
+.border, .b { border-style: solid; border-width: 1px }
 
-.border-2 { border-width: 2px }
-.border-3 { border-width: 3px }
-.border-4 { border-width: 4px }
-.border-5 { border-width: 5px }
+.border.dot, .b.dot, .border-2.dot, .b-2.dot, .border-3.dot, .b-3.dot, .border-4.dot, .b-4.dot, .border-5.dot, .b-5.dot { border-style: dotted }
+.border.dash, .b.dash, .border-2.dash, .b-2.dash, .border-3.dash, .b-3.dash, .border-4.dash, .b-4.dash, .border-5.dash, .b-5.dash { border-style: dashed }
+.border.double, .b.double, .border-2.double, .b-2.double, .border-3.double, .b-3.double, .border-4.double, .b-4.double, .border-5.double, .b-5.double { border-style: double }
+
+.border-2, .b2 { border-width: 2px }
+.border-3, .b3 { border-width: 3px }
+.border-4, .b4 { border-width: 4px }
+.border-5, .b5 { border-width: 5px }
