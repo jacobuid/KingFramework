@@ -5,6 +5,12 @@
 .container-fluid { padding-right: .9375rem; padding-left: .9375rem; margin-right: auto; margin-left: auto; }
 .container-fluid::after { display: table; clear: both; content: ""; }
 
+.pull-right{ float:right }
+.pull-left{ float:left }
+
+/* Fixes */
+.clearfix::after { display: table; clear: both; content: ""; }
+
 @media (min-width: 544px) {
   .container { max-width: 576px }
 }
