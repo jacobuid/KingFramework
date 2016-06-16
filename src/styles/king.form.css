@@ -1,0 +1,13 @@
+
+/* Form */
+
+.form-label { line-height: 34px; }
+.form-control { display: inline; padding: 6px 12px; line-height: 1.42857143; box-sizing: border-box; outline:none; }
+
+.form-control:not(textarea) { height: 34px; }
+.form-control:focus { box-shadow:rgba(0,0,0,.1) 0 0 5px inset }
+
+input[type=checkbox].form-check,input[type="radio"].form-radio{ margin:0 5px 0 0; }
+
+textarea.form-control { resize:vertical; width:100% }
+table.form-control { table-layout: fixed; display: table; width: 100%; }
