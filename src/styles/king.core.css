@@ -36,6 +36,8 @@ h6,.h6{ font-size: 1.2rem }
 
 p { font-size: 1rem }
 
+hr { border-top:0; border-left:0; border-right:0; border-bottom:solid 1px; }
+
 nav ol, nav ul { list-style: none; }
 
 a, a:link, a:hover, a:visited, a:active { text-decoration:none; }
@@ -44,3 +46,14 @@ blockquote, q { quotes: none; }
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 
 table { border-collapse: collapse; border-spacing: 0; }
+
+/* Placeholders */
+::-webkit-input-placeholder { color: #DAE1E4; }
+:-moz-placeholder { color: #DAE1E4; }
+::-moz-placeholder { color: #DAE1E4; }
+:-ms-input-placeholder { color: #DAE1E4; }
+
+/* Scrollbars */
+::-webkit-scrollbar { width: 5px; height:5px }
+::-webkit-scrollbar-thumb { border-radius: 0px; background: #42a5f5; }
+::-webkit-scrollbar-track { background: #FFFFFF; border-radius: 0px; }
