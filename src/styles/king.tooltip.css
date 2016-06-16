@@ -1,0 +1,17 @@
+
+/* Tooltip */
+[data-tooltip]:hover, [data-tooltip-left]:hover { position:relative; cursor:help }
+a[data-tooltip],button[data-tooltip],input[data-tooltip], a[data-tooltip-left],button[data-tooltip-left],input[data-tooltip-left]{cursor:pointer}
+
+[data-tooltip]:hover:after { content: attr(data-tooltip); width:250px; padding:10px; position: absolute; left: 0; top: 110%; z-index: 5; font: normal 12px Arial;
+    border: 1px solid #31708f; background: #d9edf7; color: #31708f;
+    -webkit-box-shadow: 2px 2px 3px 0 rgba(0,0,0,.2);
+    box-shadow: 2px 2px 3px 0 rgba(0,0,0,.2);
+}
+[data-tooltip-left]:hover:after { content: attr(data-tooltip-left); width:250px; padding:10px; position: absolute; right: 0; top: 110%; z-index: 5; font: normal 12px Arial;
+    border: 1px solid #31708f; background: #d9edf7; color: #31708f;
+    -webkit-box-shadow: 2px 2px 3px 0 rgba(0,0,0,.2);
+    box-shadow: 2px 2px 3px 0 rgba(0,0,0,.2);
+}
+
+[data-tooltip].tooltip-width-small:hover:after,[data-tooltip-left].tooltip-width-small:hover:after{ width:120px }
