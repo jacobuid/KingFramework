@@ -1,17 +1,31 @@
 
-/* Remove Borders */
+/* All Borders */
 .no-border, .border-all-0, .b-a-0 { border: none !important }
-.no-top-border, .border-top-0, .b-t-0 { border-top: none !important }
-.no-right-border, .border-right-0, .b-r-0 { border-right: none !important }
-.no-bottom-border, .border-bottom-0, .b-b-0 { border-bottom: none !important }
-.no-left-border, .border-left-0, .b-l-0 { border-left: none !important }
-
-/* Add Borders */
 .border-all, .b-a { border-style: solid; border-width: 1px }
+
+/* Top Borders */
+.no-top-border, .border-top-0, .b-t-0 { border-top: none !important }
 .border-top, .b-t { border-top-style: solid; border-top-width: 1px }
+
+/* Right Borders */
+.no-right-border, .border-right-0, .b-r-0 { border-right: none !important }
 .border-right, .b-r { border-right-style: solid; border-right-width: 1px }
+
+/* Bottom Borders */
+.no-bottom-border, .border-bottom-0, .b-b-0 { border-bottom: none !important }
 .border-bottom, .b-b { border-bottom-style: solid; border-bottom-width: 1px }
+
+/* Left Borders */
+.no-left-border, .border-left-0, .b-l-0 { border-left: none !important }
 .border-left, .b-l { border-left-style: solid; border-left-width: 1px }
+
+/* Right & Left Borders */
+.no-x-border, .border-x-0, .b-x-0 { border-left: none !important; border-right: none !important }
+.border-x, .b-x { border-left-style: solid; border-left-width: 1px; border-right-style: solid; border-right-width: 1px }
+
+/* Top & Bottom Borders */
+.no-y-border, .border-y-0, .b-y-0 { border-top: none !important border-bottom: none !important; }
+.border-y, .b-y { border-top-style: solid; border-top-width: 1px; border-bottom-style: solid; border-bottom-width: 1px }
 
 /* Border Line Style */
 .dot { border-style: dotted }
