@@ -63,3 +63,29 @@
 .margin-left-40,.m-l-40 { margin-left: 40px !important }
 .margin-left-45,.m-l-45 { margin-left: 45px !important }
 .margin-left-50,.m-l-50 { margin-left: 50px !important }
+
+/* Margin Right & Left (X Axis) */
+.no-x-margin,.margin-x-0,.m-x-0 { margin-left: 0 !important; margin-right: 0 !important }
+.margin-x-5,.m-x-5 { margin-left: 5px !important; margin-right: 5px !important }
+.margin-x-10,.m-x-10 { margin-left: 10px !important; margin-right: 10px !important }
+.margin-x-15,.m-x-15 { margin-left: 15px !important; margin-right: 15px !important }
+.margin-x-20,.m-x-20 { margin-left: 20px !important; margin-right: 20px !important }
+.margin-x-25,.m-x-25 { margin-left: 25px !important; margin-right: 25px !important }
+.margin-x-30,.m-x-30 { margin-left: 30px !important; margin-right: 30px !important }
+.margin-x-35,.m-x-35 { margin-left: 35px !important; margin-right: 35px !important }
+.margin-x-40,.m-x-40 { margin-left: 40px !important; margin-right: 40px !important }
+.margin-x-45,.m-x-45 { margin-left: 45px !important; margin-right: 45px !important }
+.margin-x-50,.m-x-50 { margin-left: 50px !important; margin-right: 50px !important }
+
+/* Margin Top & Bottom (Y Axis)*/
+.no-y-margin,.margin-y-0,.m-y-0 { margin-top: 0 !important; margin-bottom: 0 !important }
+.margin-y-5,.m-y-5 { margin-top: 5px !important; margin-bottom: 5px !important }
+.margin-y-10,.m-y-10 { margin-top: 10px !important; margin-bottom: 10px !important }
+.margin-y-15,.m-y-15 { margin-top: 15px !important; margin-bottom: 15px !important }
+.margin-y-20,.m-y-20 { margin-top: 20px !important; margin-bottom: 20px !important }
+.margin-y-25,.m-y-25 { margin-top: 25px !important; margin-bottom: 25px !important }
+.margin-y-30,.m-y-30 { margin-top: 30px !important; margin-bottom: 30px !important }
+.margin-y-35,.m-y-35 { margin-top: 35px !important; margin-bottom: 35px !important }
+.margin-y-40,.m-y-40 { margin-top: 40px !important; margin-bottom: 40px !important }
+.margin-y-45,.m-y-45 { margin-top: 45px !important; margin-bottom: 45px !important }
+.margin-y-50,.m-y-50 { margin-top: 50px !important; margin-bottom: 50px !important }
