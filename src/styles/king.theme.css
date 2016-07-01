@@ -57,6 +57,11 @@
 .round-16 { border-radius: 16px; }
 .round-18 { border-radius: 18px; }
 .round-20 { border-radius: 20px; }
+.round-22 { border-radius: 22px; }
+.round-24 { border-radius: 24px; }
+.round-26 { border-radius: 26px; }
+.round-28 { border-radius: 28px; }
+.round-30 { border-radius: 30px; }
 
 .round-top-2 { border-top-left-radius: 2px; border-top-right-radius: 2px; }
 .round-bottom-2 { border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; }
