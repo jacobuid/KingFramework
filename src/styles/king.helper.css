@@ -19,6 +19,14 @@
 .img-fluid { width:100%; height:auto }
 .img-circle { border-radius: 50%; }
 
+/* Navigation */
+.nav ul { list-style:none; margin:0; padding:0 }
+    .nav li { display:block; float:left; padding:0 }
+    .nav.vertical li { float:none }
+        .nav.vertical a { display:block }
+        .nav a { display:table-cell }
+        .nav a:hover { text-decoration:none }
+
 @media (max-width: 543px) {
   .hidden-xs-down { display: none !important }
 }
