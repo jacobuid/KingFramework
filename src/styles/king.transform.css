@@ -1,3 +1,5 @@
+.rotate{ transform-origin: 0 0; }
+
 .rotate.going-back{
     -ms-transform: rotate(180deg); /* IE 9 */
     -webkit-transform: rotate(180deg); /* Safari */
