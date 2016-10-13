@@ -1,3 +1,7 @@
+/* =====================================
+    KingHelpers
+    - Random helper classes
+======================================*/
 
 /* Scroll Boxes */
 .scroll-100{ height:100px; overflow:auto; }
@@ -18,7 +22,6 @@
 
 /* Images */
 .img-fluid { width:100%; height:auto }
-.img-circle { border-radius: 50%; }
 
 /* Navigation */
 .nav ul { list-style:none; margin:0; padding:0 }
