@@ -1,3 +1,9 @@
+/* =========================================
+    KingBorder
+    - This covers adding borders 
+      to any element
+==========================================*/
+
 
 /* All Borders */
 .no-border, .border-all-0, .b-a-0 { border: none !important }
