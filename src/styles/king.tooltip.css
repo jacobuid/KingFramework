@@ -1,3 +1,7 @@
+/* =====================================
+    KingTooltip
+    - CSS Only Tooltips
+======================================*/
 
 /* Tooltip */
 [data-tooltip]:hover, [data-tooltip-left]:hover { position:relative; cursor:help }
