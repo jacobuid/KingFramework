@@ -1,3 +1,10 @@
+
+/* =====================================
+    KingGrid
+    - Creates a Grid
+    - Based on Bootstrap
+======================================*/
+
 .row { margin-right: -15px; margin-left: -15px }
 .row:before, .row:after { display: table; content: " "; clear:both }
 
