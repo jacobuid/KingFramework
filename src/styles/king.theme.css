@@ -8,83 +8,166 @@
 ==========================================*/
 
 /* Primary Color */
-.background.primary:not([disabled]), .background.primary-hover:not([disabled]):hover { background-color:#0275d8 }
-.color.primary:not([disabled]), .color.primary-hover:not([disabled]):hover { color::#0275d8 }
-.border.primary:not([disabled]), .border.primary-hover:not([disabled]):hover { border-color: #0275d8 }
+.background-primary:not([disabled]), .background-primary-hover:not([disabled]):hover { background-color:#0275d8 }
+.color-primary:not([disabled]), .color-primary-hover:not([disabled]):hover { color::#0275d8 }
+.border-primary:not([disabled]), .border-primary-hover:not([disabled]):hover { border-color: #0275d8 }
 
 /* Secondary Color */
-.background.secondary:not([disabled]), .background.secondary-hover:not([disabled]):hover { background-color:#5cb85c }
-.color.secondary:not([disabled]), .color.secondary-hover:not([disabled]):hover { color:#5cb85c }
-.border.secondary:not([disabled]), .border.secondary-hover:not([disabled]):hover { border-color: #5cb85c }
+.background-secondary:not([disabled]), .background-secondary-hover:not([disabled]):hover { background-color:#5cb85c }
+.color-secondary:not([disabled]), .color-secondary-hover:not([disabled]):hover { color:#5cb85c }
+.border-secondary:not([disabled]), .border-secondary-hover:not([disabled]):hover { border-color: #5cb85c }
 
 /* Tertiary Color */
-.background.tertiary:not([disabled]), .background.tertiary-hover:not([disabled]):hover { background-color:#d9534f }
-.color.tertiary:not([disabled]), .color.tertiary-hover:not([disabled]):hover { color:#d9534f }
-.border.tertiary:not([disabled]), .border.tertiary-hover:not([disabled]):hover { border-color: #d9534f }
+.background-tertiary:not([disabled]), .background-tertiary-hover:not([disabled]):hover { background-color:#d9534f }
+.color-tertiary:not([disabled]), .color-tertiary-hover:not([disabled]):hover { color:#d9534f }
+.border-tertiary:not([disabled]), .border-tertiary-hover:not([disabled]):hover { border-color: #d9534f }
 
 /* White Color */
-.background.white:not([disabled]), .background.white-hover:not([disabled]):hover { background-color: #fff }
-.color.white:not([disabled]), .color.white-hover:not([disabled]):hover { color: #fff }
-.border.white:not([disabled]), .border.white-hover:not([disabled]):hover { border-color: #fff }
-
-/* Light Color */
-.background.light:not([disabled]), .background.light-hover:not([disabled]):hover { background-color: #f5f5f5 }
-.color.light:not([disabled]), .color.light-hover:not([disabled]):hover { color: #f5f5f5 }
-.border.light:not([disabled]), .border.light-hover:not([disabled]):hover { border-color: #f5f5f5 }
-
-/* Dark Color */
-.background.dark:not([disabled]), .background.dark-hover:not([disabled]):hover { background-color: #333 }
-.color.dark:not([disabled]), .color.light-dark:not([disabled]):hover { color: #333 }
-.border.dark:not([disabled]), .border.light-dark:not([disabled]):hover { border-color: #333 }
+.background-white:not([disabled]), .background-white-hover:not([disabled]):hover { background-color: #fff }
+.color-white:not([disabled]), .color-white-hover:not([disabled]):hover { color: #fff }
+.border-white:not([disabled]), .border-white-hover:not([disabled]):hover { border-color: #fff }
 
 /* Black Color */
 .background.black:not([disabled]), .background.black-hover:not([disabled]):hover { background-color: #000 }
 .color.black:not([disabled]), .color.black-hover:not([disabled]):hover { color: #000 }
 .border.black:not([disabled]), .border.black-hover:not([disabled]):hover { border-color: #000 }
 
-/* Hover */
-.hover-light{ background-image: url('../images/light.png') }
-.hover-dark{ background-image: url('../images/dark.png') }
+/* Light Color (2%) */
+.background-light-02:not([disabled]), .background-light-02-hover:not([disabled]):hover { background-color: rgba(255,255,255,.02) }
+.color-light-02:not([disabled]), .color-light-02-hover:not([disabled]):hover { color: rgba(255,255,255,.02) }
+.border-light-02:not([disabled]), .border-light-02-hover:not([disabled]):hover { border-color: rgba(255,255,255,.02) }
 
-/* Round Corners  */
-.round-2 { border-radius: 2px; }
-.round-4 { border-radius: 4px; }
-.round-6 { border-radius: 6px; }
-.round-8 { border-radius: 8px; }
-.round-10 { border-radius: 10px; }
-.round-12 { border-radius: 12px; }
-.round-14 { border-radius: 14px; }
-.round-16 { border-radius: 16px; }
-.round-18 { border-radius: 18px; }
-.round-20 { border-radius: 20px; }
-.round-22 { border-radius: 22px; }
-.round-24 { border-radius: 24px; }
-.round-26 { border-radius: 26px; }
-.round-28 { border-radius: 28px; }
-.round-30 { border-radius: 30px; }
+/* Light Color (4%) */
+.background-light-04:not([disabled]), .background-light-04-hover:not([disabled]):hover { background-color: rgba(255,255,255,.04) }
+.color-light-04:not([disabled]), .color-light-04-hover:not([disabled]):hover { color: rgba(255,255,255,.04) }
+.border-light-04:not([disabled]), .border-light-04-hover:not([disabled]):hover { border-color: rgba(255,255,255,.04) }
 
-.round-top-2 { border-top-left-radius: 2px; border-top-right-radius: 2px; }
-.round-bottom-2 { border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; }
-.round-left-2 { border-top-left-radius: 2px; border-bottom-left-radius: 2px; }
-.round-right-2 { border-top-right-radius: 2px; border-bottom-right-radius: 2px; }
+/* Light Color (6%) */
+.background-light-06:not([disabled]), .background-light-06-hover:not([disabled]):hover { background-color: rgba(255,255,255,.06) }
+.color-light-06:not([disabled]), .color-light-06-hover:not([disabled]):hover { color: rgba(255,255,255,.06) }
+.border-light-06:not([disabled]), .border-light-06-hover:not([disabled]):hover { border-color: rgba(255,255,255,.06) }
 
-.round-top-4 { border-top-left-radius: 4px; border-top-right-radius: 4px; }
-.round-bottom-4 { border-bottom-left-radius: 4px; border-bottom-right-radius: 2px; }
-.round-left-4 { border-top-left-radius: 4px; border-bottom-left-radius: 4px; }
-.round-right-4 { border-top-right-radius: 4px; border-bottom-right-radius: 4px; }
+/* Light Color (8%) */
+.background-light-08:not([disabled]), .background-light-08-hover:not([disabled]):hover { background-color: rgba(255,255,255,.08) }
+.color-light-08:not([disabled]), .color-light-08-hover:not([disabled]):hover { color: rgba(255,255,255,.08) }
+.border-light-08:not([disabled]), .border-light-08-hover:not([disabled]):hover { border-color: rgba(255,255,255,.08) }
 
-.round-top-6 { border-top-left-radius: 6px; border-top-right-radius: 6px; }
-.round-bottom-6 { border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; }
-.round-left-6 { border-top-left-radius: 6px; border-bottom-left-radius: 6px; }
-.round-right-6 { border-top-right-radius: 6px; border-bottom-right-radius: 6px; }
+/* Light Color (10%) */
+.background-light-10:not([disabled]), .background-light-10-hover:not([disabled]):hover { background-color: rgba(255,255,255,.10) }
+.color-light-10:not([disabled]), .color-light-10-hover:not([disabled]):hover { color: rgba(255,255,255,.10) }
+.border-light-10:not([disabled]), .border-light-10-hover:not([disabled]):hover { border-color: rgba(255,255,255,.10) }
 
-.round-top-8 { border-top-left-radius: 8px; border-top-right-radius: 8px; }
-.round-bottom-8 { border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; }
-.round-left-8 { border-top-left-radius: 8px; border-bottom-left-radius: 8px; }
-.round-right-8 { border-top-right-radius: 8px; border-bottom-right-radius: 8px; }
+/* Light Color (20%) */
+.background-light-20:not([disabled]), .background-light-20-hover:not([disabled]):hover { background-color: rgba(255,255,255,.20) }
+.color-light-20:not([disabled]), .color-light-20-hover:not([disabled]):hover { color: rgba(255,255,255,.20) }
+.border-light-20:not([disabled]), .border-light-20-hover:not([disabled]):hover { border-color: rgba(255,255,255,.20) }
 
-.round-top-10 { border-top-left-radius: 10px; border-top-right-radius: 10px; }
-.round-bottom-10 { border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; }
-.round-left-10 { border-top-left-radius: 10px; border-bottom-left-radius: 10px; }
-.round-right-10 { border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
+/* Light Color (30%) */
+.background-light-30:not([disabled]), .background-light-30-hover:not([disabled]):hover { background-color: rgba(255,255,255,.30) }
+.color-light-30:not([disabled]), .color-light-30-hover:not([disabled]):hover { color: rgba(255,255,255,.30) }
+.border-light-30:not([disabled]), .border-light-30-hover:not([disabled]):hover { border-color: rgba(255,255,255,.30) }
 
+/* Light Color (40%) */
+.background-light-40:not([disabled]), .background-light-40-hover:not([disabled]):hover { background-color: rgba(255,255,255,.40) }
+.color-light-40:not([disabled]), .color-light-40-hover:not([disabled]):hover { color: rgba(255,255,255,.40) }
+.border-light-40:not([disabled]), .border-light-40-hover:not([disabled]):hover { border-color: rgba(255,255,255,.40) }
+
+/* Light Color (50%) */
+.background-light-50:not([disabled]), .background-light-50-hover:not([disabled]):hover { background-color: rgba(255,255,255,.50) }
+.color-light-50:not([disabled]), .color-light-50-hover:not([disabled]):hover { color: rgba(255,255,255,.50) }
+.border-light-50:not([disabled]), .border-light-50-hover:not([disabled]):hover { border-color: rgba(255,255,255,.50) }
+
+/* Light Color (50%) */
+.background-light-50:not([disabled]), .background-light-50-hover:not([disabled]):hover { background-color: rgba(255,255,255,.50) }
+.color-light-50:not([disabled]), .color-light-50-hover:not([disabled]):hover { color: rgba(255,255,255,.50) }
+.border-light-50:not([disabled]), .border-light-50-hover:not([disabled]):hover { border-color: rgba(255,255,255,.50) }
+
+/* Light Color (60%) */
+.background-light-60:not([disabled]), .background-light-60-hover:not([disabled]):hover { background-color: rgba(255,255,255,.60) }
+.color-light-60:not([disabled]), .color-light-60-hover:not([disabled]):hover { color: rgba(255,255,255,.60) }
+.border-light-60:not([disabled]), .border-light-60-hover:not([disabled]):hover { border-color: rgba(255,255,255,.60) }
+
+/* Light Color (70%) */
+.background-light-70:not([disabled]), .background-light-70-hover:not([disabled]):hover { background-color: rgba(255,255,255,.70) }
+.color-light-70:not([disabled]), .color-light-70-hover:not([disabled]):hover { color: rgba(255,255,255,.70) }
+.border-light-70:not([disabled]), .border-light-70-hover:not([disabled]):hover { border-color: rgba(255,255,255,.70) }
+
+/* Light Color (80%) */
+.background-light-80:not([disabled]), .background-light-80-hover:not([disabled]):hover { background-color: rgba(255,255,255,.80) }
+.color-light-80:not([disabled]), .color-light-80-hover:not([disabled]):hover { color: rgba(255,255,255,.80) }
+.border-light-80:not([disabled]), .border-light-80-hover:not([disabled]):hover { border-color: rgba(255,255,255,.80) }
+
+/* Light Color (90%) */
+.background-light-90:not([disabled]), .background-light-90-hover:not([disabled]):hover { background-color: rgba(255,255,255,.90) }
+.color-light-90:not([disabled]), .color-light-90-hover:not([disabled]):hover { color: rgba(255,255,255,.90) }
+.border-light-90:not([disabled]), .border-light-90-hover:not([disabled]):hover { border-color: rgba(255,255,255,.90) }
+
+/* Dark Color (2%) */
+.background-dark-02:not([disabled]), .background-dark-02-hover:not([disabled]):hover { background-color: rgba(0,0,0,.02) }
+.color-dark-02:not([disabled]), .color-dark-02-hover:not([disabled]):hover { color: rgba(0,0,0,.02) }
+.border-dark-02:not([disabled]), .border-dark-02-hover:not([disabled]):hover { border-color: rgba(0,0,0,.02) }
+
+/* Dark Color (4%) */
+.background-dark-04:not([disabled]), .background-dark-04-hover:not([disabled]):hover { background-color: rgba(0,0,0,.04) }
+.color-dark-04:not([disabled]), .color-dark-04-hover:not([disabled]):hover { color: rgba(0,0,0,.04) }
+.border-dark-04:not([disabled]), .border-dark-04-hover:not([disabled]):hover { border-color: rgba(0,0,0,.04) }
+
+/* Dark Color (6%) */
+.background-dark-06:not([disabled]), .background-dark-06-hover:not([disabled]):hover { background-color: rgba(0,0,0,.06) }
+.color-dark-06:not([disabled]), .color-dark-06-hover:not([disabled]):hover { color: rgba(0,0,0,.06) }
+.border-dark-06:not([disabled]), .border-dark-06-hover:not([disabled]):hover { border-color: rgba(0,0,0,.06) }
+
+/* Dark Color (8%) */
+.background-dark-08:not([disabled]), .background-dark-08-hover:not([disabled]):hover { background-color: rgba(0,0,0,.08) }
+.color-dark-08:not([disabled]), .color-dark-08-hover:not([disabled]):hover { color: rgba(0,0,0,.08) }
+.border-dark-08:not([disabled]), .border-dark-08-hover:not([disabled]):hover { border-color: rgba(0,0,0,.08) }
+
+/* Dark Color (10%) */
+.background-dark-10:not([disabled]), .background-dark-10-hover:not([disabled]):hover { background-color: rgba(0,0,0,.10) }
+.color-dark-10:not([disabled]), .color-dark-10-hover:not([disabled]):hover { color: rgba(0,0,0,.10) }
+.border-dark-10:not([disabled]), .border-dark-10-hover:not([disabled]):hover { border-color: rgba(0,0,0,.10) }
+
+/* Dark Color (20%) */
+.background-dark-20:not([disabled]), .background-dark-20-hover:not([disabled]):hover { background-color: rgba(0,0,0,.20) }
+.color-dark-20:not([disabled]), .color-dark-20-hover:not([disabled]):hover { color: rgba(0,0,0,.20) }
+.border-dark-20:not([disabled]), .border-dark-20-hover:not([disabled]):hover { border-color: rgba(0,0,0,.20) }
+
+/* Dark Color (30%) */
+.background-dark-30:not([disabled]), .background-dark-30-hover:not([disabled]):hover { background-color: rgba(0,0,0,.30) }
+.color-dark-30:not([disabled]), .color-dark-30-hover:not([disabled]):hover { color: rgba(0,0,0,.30) }
+.border-dark-30:not([disabled]), .border-dark-30-hover:not([disabled]):hover { border-color: rgba(0,0,0,.30) }
+
+/* Dark Color (40%) */
+.background-dark-40:not([disabled]), .background-dark-40-hover:not([disabled]):hover { background-color: rgba(0,0,0,.40) }
+.color-dark-40:not([disabled]), .color-dark-40-hover:not([disabled]):hover { color: rgba(0,0,0,.40) }
+.border-dark-40:not([disabled]), .border-dark-40-hover:not([disabled]):hover { border-color: rgba(0,0,0,.40) }
+
+/* Dark Color (50%) */
+.background-dark-50:not([disabled]), .background-dark-50-hover:not([disabled]):hover { background-color: rgba(0,0,0,.50) }
+.color-dark-50:not([disabled]), .color-dark-50-hover:not([disabled]):hover { color: rgba(0,0,0,.50) }
+.border-dark-50:not([disabled]), .border-dark-50-hover:not([disabled]):hover { border-color: rgba(0,0,0,.50) }
+
+/* Dark Color (50%) */
+.background-dark-50:not([disabled]), .background-dark-50-hover:not([disabled]):hover { background-color: rgba(0,0,0,.50) }
+.color-dark-50:not([disabled]), .color-dark-50-hover:not([disabled]):hover { color: rgba(0,0,0,.50) }
+.border-dark-50:not([disabled]), .border-dark-50-hover:not([disabled]):hover { border-color: rgba(0,0,0,.50) }
+
+/* Dark Color (60%) */
+.background-dark-60:not([disabled]), .background-dark-60-hover:not([disabled]):hover { background-color: rgba(0,0,0,.60) }
+.color-dark-60:not([disabled]), .color-dark-60-hover:not([disabled]):hover { color: rgba(0,0,0,.60) }
+.border-dark-60:not([disabled]), .border-dark-60-hover:not([disabled]):hover { border-color: rgba(0,0,0,.60) }
+
+/* Dark Color (70%) */
+.background-dark-70:not([disabled]), .background-dark-70-hover:not([disabled]):hover { background-color: rgba(0,0,0,.70) }
+.color-dark-70:not([disabled]), .color-dark-70-hover:not([disabled]):hover { color: rgba(0,0,0,.70) }
+.border-dark-70:not([disabled]), .border-dark-70-hover:not([disabled]):hover { border-color: rgba(0,0,0,.70) }
+
+/* Dark Color (80%) */
+.background-dark-80:not([disabled]), .background-dark-80-hover:not([disabled]):hover { background-color: rgba(0,0,0,.80) }
+.color-dark-80:not([disabled]), .color-dark-80-hover:not([disabled]):hover { color: rgba(0,0,0,.80) }
+.border-dark-80:not([disabled]), .border-dark-80-hover:not([disabled]):hover { border-color: rgba(0,0,0,.80) }
+
+/* Dark Color (90%) */
+.background-dark-90:not([disabled]), .background-dark-90-hover:not([disabled]):hover { background-color: rgba(0,0,0,.90) }
+.color-dark-90:not([disabled]), .color-dark-90-hover:not([disabled]):hover { color: rgba(0,0,0,.90) }
+.border-dark-90:not([disabled]), .border-dark-90-hover:not([disabled]):hover { border-color: rgba(0,0,0,.90) }
