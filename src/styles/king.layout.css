@@ -1,3 +1,7 @@
+/* =====================================
+    KingLayout
+    - Control layout for page
+======================================*/
 
 .container { padding-right: .9375rem; padding-left: .9375rem; margin-right: auto; margin-left: auto; }
 .container::after { display: table; clear: both; content: ""; }
