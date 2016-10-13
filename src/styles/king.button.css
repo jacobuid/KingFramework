@@ -1,3 +1,9 @@
+/*================================
+  KingButton
+  - Set default styles 
+    for buttons
+================================*/
+
 /* Button Setup */
 .button { display:inline-block; padding: 8px 16px; box-sizing: border-box; cursor: pointer; }
 input.button, button.button { border: none; background: none }
