@@ -1,21 +1,21 @@
 /* Button Setup */
-.btn { display:inline-block; padding: 8px 16px; box-sizing: border-box; cursor: pointer; }
-input.btn, button.btn { border: none; background: none }
-a.btn, a.btn:hover { text-decoration:none; }
+.button { display:inline-block; padding: 8px 16px; box-sizing: border-box; cursor: pointer; }
+input.button, button.button { border: none; background: none }
+a.button, a.button:hover { text-decoration:none; }
 
 /* Button Sizes */
-.btn.btn-xl{ padding: 12px 24px }
-.btn.btn-lg{ padding: 10px 20px }
-.btn.btn-sm{ padding: 6px 12px }
-.btn.btn-xs{ padding: 4px 8px }
+.button.xl{ padding: 12px 24px }
+.button.lg{ padding: 10px 20px }
+.button.sm{ padding: 6px 12px }
+.button.xs{ padding: 4px 8px }
 
 /* This button uses Grid to determine width */
-.btn.btn-block{ width: 100% }
+.button.button-block{ width: 100% }
 
 /* Horizontal Button Group */
-.btn-broup { display:inline-block; overflow:hidden; }
-.btn-group .btn{ float: left }
+.button-group { display:inline-block; overflow:hidden; }
+.button-group .button{ float: left }
 
 /* Vertical Button Group */
-.btn-group-vertical{ display: inline-block }
-.btn-group-vertical .btn{ display: block; width: 100% }
+.button-group-vertical{ display: inline-block }
+.button-group-vertical .button{ display: block; width: 100% }
