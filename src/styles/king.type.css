@@ -7,7 +7,7 @@
 .text-lowercase { text-transform: lowercase !important; }
 .text-uppercase { text-transform: uppercase !important; }
 .text-capitalize { text-transform: capitalize !important; }
-.text-centered{ text-align: center }
+.text-center,.text-centered{ text-align: center }
 .text-right{ text-align: right }
 .text-left{ text-align: left }
 .text-justify{ text-align: justify }
