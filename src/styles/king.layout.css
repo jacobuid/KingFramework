@@ -28,19 +28,24 @@
 .pull-right{ float:right }
 .pull-left{ float:left }
 
-@media (min-width: 768px) {
+@media (min-width: 544px) {
     .pull-right-sm{ float:right }
     .pull-left-sm{ float:left }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     .pull-right-md{ float:right }
     .pull-left-md{ float:left }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .pull-right-lg{ float:right }
     .pull-left-lg{ float:left }
+}
+
+@media (min-width: 1200px) {
+    .pull-right-xl{ float:right }
+    .pull-left-xl{ float:left }
 }
 
 /* Fixes */
