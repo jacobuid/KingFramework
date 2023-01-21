@@ -9,7 +9,8 @@
   "devDependencies": {
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-uglify": "^1.0.1",
-    "grunt-css": "^0.5.4"
+    "grunt-css": "^0.5.4",
+    "grunt-release": "^0.14.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

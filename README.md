@@ -3,4 +3,12 @@ A Framework fit for a King, Easy, Fast, &amp; Modular
 
 Currently this code extends Bootstrap.css
 
-Pull it down and run gruntfile to build out the bundled & minified versions of the styles and Scripts.
+## To compile the separate files into a single file:
+1. Install the the NPM Packages
+```
+$ npm i
+```
+2. Build project
+```
+$ grunt build
+```

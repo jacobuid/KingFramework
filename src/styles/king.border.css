@@ -30,7 +30,7 @@
 .border-x, .b-x { border-left-style: solid; border-left-width: 1px; border-right-style: solid; border-right-width: 1px }
 
 /* Top & Bottom Borders */
-.no-y-border, .border-y-0, .b-y-0 { border-top: none !important border-bottom: none !important; }
+.no-y-border, .border-y-0, .b-y-0 { border-top: none !important; border-bottom: none !important; }
 .border-y, .b-y { border-top-style: solid; border-top-width: 1px; border-bottom-style: solid; border-bottom-width: 1px }
 
 /* Border Line Style */

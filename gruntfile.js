@@ -7,6 +7,7 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-css');
+	grunt.loadNpmTasks('grunt-release');
 
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
@@ -39,5 +40,5 @@ module.exports = function (grunt) {
 	});
 
 	grunt.registerTask('build', ['concat', 'uglify', 'cssmin']);
-
+	grunt.registerTask('release');
 };
