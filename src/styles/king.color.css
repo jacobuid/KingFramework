@@ -9,7 +9,7 @@
 
 /* Primary Color */
 .background-primary:not([disabled]), .background-primary-hover:not([disabled]):hover { background-color:#0275d8 }
-.color-primary:not([disabled]), .color-primary-hover:not([disabled]):hover { color::#0275d8 }
+.color-primary:not([disabled]), .color-primary-hover:not([disabled]):hover { color:#0275d8 }
 .border-primary:not([disabled]), .border-primary-hover:not([disabled]):hover { border-color: #0275d8 }
 
 /* Secondary Color */
